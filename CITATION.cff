@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript and this archived code release."
+title: "Computer verification for the Chen--Raspaud conjecture, case k=4"
+type: software
+authors:
+  - family-names: Nazarczuk
+    given-names: Maria
+version: 1.0.0
+date-released: 2026-09-21
+abstract: "Exact C++ verifiers and an independent Python cross-check for the computer-assisted local reductions in the k=4 case of the Chen--Raspaud conjecture."
+keywords:
+  - graph homomorphisms
+  - Kneser graphs
+  - Chen--Raspaud conjecture
+  - computer-assisted proof
+  - reproducibility

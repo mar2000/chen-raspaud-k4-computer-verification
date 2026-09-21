@@ -1,0 +1,44 @@
+=== Positive-type audit ===
+degree 3: positive=61, union-bound=29, star-tested=32, survivors=[(3, 3, 4)]
+degree 4: positive=64, union-bound=43, star-tested=21, survivors=[]
+degree 5: positive=41, union-bound=38, star-tested=3, survivors=[]
+degree 6: positive=19, union-bound=19, star-tested=0, survivors=[]
+degree 7: positive=7, union-bound=7, star-tested=0, survivors=[]
+degree 8: positive=2, union-bound=2, star-tested=0, survivors=[]
+
+=== Capacity-exception audit ===
+degree 4: exceptions=11, survivors=[]
+  (1, 4, 6, 7): excess=0, q4=1, star-reducible=True
+  (2, 4, 4, 7): excess=-1, q4=2, star-reducible=True
+  (2, 4, 5, 7): excess=0, q4=1, star-reducible=True
+  (2, 4, 6, 6): excess=0, q4=1, star-reducible=True
+  (3, 4, 4, 6): excess=-1, q4=2, star-reducible=True
+  (3, 4, 4, 7): excess=0, q4=2, star-reducible=True
+  (3, 4, 5, 6): excess=0, q4=1, star-reducible=True
+  (4, 4, 4, 4): excess=-2, q4=4, star-reducible=True
+  (4, 4, 4, 5): excess=-1, q4=3, star-reducible=True
+  (4, 4, 4, 6): excess=0, q4=3, star-reducible=True
+  (4, 4, 5, 5): excess=0, q4=2, star-reducible=True
+degree 5: exceptions=10, survivors=[]
+  (2, 4, 7, 7, 7): excess=0, q4=1, star-reducible=True
+  (3, 4, 6, 7, 7): excess=0, q4=1, star-reducible=True
+  (4, 4, 4, 6, 7): excess=-2, q4=3, star-reducible=True
+  (4, 4, 4, 7, 7): excess=-1, q4=3, star-reducible=True
+  (4, 4, 5, 6, 7): excess=-1, q4=2, star-reducible=True
+  (4, 4, 5, 7, 7): excess=0, q4=2, star-reducible=True
+  (4, 4, 6, 6, 6): excess=-1, q4=2, star-reducible=True
+  (4, 4, 6, 6, 7): excess=0, q4=2, star-reducible=True
+  (4, 5, 5, 6, 7): excess=0, q4=1, star-reducible=True
+  (4, 5, 6, 6, 6): excess=0, q4=1, star-reducible=True
+degree 6: exceptions=4, survivors=[]
+  (4, 4, 6, 7, 7, 7): excess=-1, q4=2, star-reducible=True
+  (4, 4, 7, 7, 7, 7): excess=0, q4=2, star-reducible=True
+  (4, 5, 6, 7, 7, 7): excess=0, q4=1, star-reducible=True
+  (4, 6, 6, 6, 7, 7): excess=0, q4=1, star-reducible=True
+degree 7: exceptions=1, survivors=[]
+  (4, 6, 7, 7, 7, 7, 7): excess=0, q4=1, star-reducible=True
+
+=== Degree-3 support through a 4-thread ===
+potentially incompatible shorter-length pairs: [(1, 1), (1, 2), (1, 3)]
+
+ALL REVISED REDUCTION CHECKS PASSED

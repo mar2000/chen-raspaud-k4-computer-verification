@@ -1,0 +1,19 @@
+=== exact C++ admissible-set audit ===
+F sizes: 121 105 81 45 21 5 1
+A8 size=126, A9 size=126
+
+=== exact C++ positive-type audit ===
+degree 3: positive=61, union=29, star=32, survivors=[(3,3,4) ]
+degree 4: positive=64, union=43, star=21, survivors=[]
+degree 5: positive=41, union=38, star=3, survivors=[]
+degree 6: positive=19, union=19, star=0, survivors=[]
+degree 7: positive=7, union=7, star=0, survivors=[]
+degree 8: positive=2, union=2, star=0, survivors=[]
+
+=== exact C++ capacity audit ===
+degree 4: exceptions=11, survivors=[]
+degree 5: exceptions=10, survivors=[]
+degree 6: exceptions=4, survivors=[]
+degree 7: exceptions=1, survivors=[]
+
+ALL EXACT C++ STAR CHECKS PASSED

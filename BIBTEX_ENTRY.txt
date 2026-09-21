@@ -1,0 +1,20 @@
+% Preferred after archiving the repository on Zenodo:
+@software{Nazarczuk2026ChenRaspaudCode,
+  author    = {Maria Nazarczuk},
+  title     = {Computer verification for the Chen--Raspaud conjecture, case k=4},
+  year      = {2026},
+  version   = {1.0.0},
+  publisher = {Zenodo},
+  doi       = {REPLACE_WITH_ZENODO_DOI},
+  url       = {REPLACE_WITH_ARCHIVE_URL}
+}
+
+% Temporary form if only a GitHub repository is available:
+@misc{Nazarczuk2026ChenRaspaudCodeGithub,
+  author       = {Maria Nazarczuk},
+  title        = {Computer verification for the Chen--Raspaud conjecture, case k=4},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  url          = {REPLACE_WITH_REPOSITORY_URL},
+  note         = {Version 1.0.0, accessed YYYY-MM-DD}
+}
