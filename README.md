@@ -72,12 +72,6 @@ artifacts/  reference terminal outputs from the verified release
 
 ## Scope and chronology
 
-The code in this public package is the cleaned reproducibility subset of a larger exploratory project begun in April 2026.  Historical exploratory scripts are intentionally omitted here because they are not required to verify the statements used in the final proof.
+The code in this public package is the cleaned reproducibility subset of a larger exploratory project ended in April 2026.  Historical exploratory scripts are intentionally omitted here because they are not required to verify the statements used in the final proof.
 
 The proof was developed independently.  The manuscript itself records the chronology and distinguishes the proof from later work that appeared while the manuscript was being completed.
-
-## Citation
-
-After the repository has been uploaded, replace `REPOSITORY_URL` (or, preferably, the Zenodo DOI) in `BIBTEX_ENTRY.txt` and `CITATION.cff`.
-
-For a paper, a permanent archived release with a DOI (for example a GitHub release archived by Zenodo) is preferable to citing only a mutable GitHub branch.
